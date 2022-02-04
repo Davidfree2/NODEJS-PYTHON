@@ -1,0 +1,42 @@
+*{
+    font-family: helvetica;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+html body {
+    background-image: linear-gradient(red, purple);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+button {
+    padding: 3rem;
+    font-size: 6rem;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+h1 {
+    margin: .5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

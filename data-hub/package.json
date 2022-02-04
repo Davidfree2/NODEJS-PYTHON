@@ -1,0 +1,19 @@
+{
+  "name": "data-hub",
+  "version": "1.0.0",
+  "description": "Upload photos, videos, and files to your own cloud like computer :)",
+  "main": "electron.js",
+  "author": "david esquerra",
+  "license": "ISC",
+  "scripts": {
+  "start": "electon ."
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "live-server": "^1.2.1",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "electron": "^16.0.5"
+  }
+}

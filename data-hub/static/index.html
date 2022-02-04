@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet' type='text/css' href='index.css' />
+</head>
+<body>
+<div class='container'>
+    <form method='post' enctype='multipart/form-data' action='/upload'>
+        <input type='file' id='upload-btn' name='file' hidden/>
+        <label for='upload-btn' class='material-icons'>download</label>
+        <h1 id='addedFile'>file added!</h1>
+        <input type='submit' id='submit' value='send' />
+    </form>
+
+    <script src='domjs.js'></script>
+</div>
+</body>
+</html>
